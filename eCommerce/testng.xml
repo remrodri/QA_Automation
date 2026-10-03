@@ -1,0 +1,33 @@
+<suite name="Test">
+	
+	<test name="TestCases" preserve-order="true">
+
+		<!-- Local machine / Browserstack / Sauce Labs -->
+		<parameter name="server" value="Local machine" />
+		 
+		<!-- QA / UAT -->
+		<parameter name="environment" value="UAT" />
+		
+		<!-- Firefox / Google Chrome / Edge -->
+		<parameter name="browserName" value="chrome" />
+		
+		<!-- Internet Explorer Version-->
+		<!-- <parameter name="browserVersion" value="11.0" /> -->
+		<!-- Firefox Version-->
+<!-- 		<parameter name="browserVersion" value="52.0.1" /> -->
+		<!-- Google Chrome Version 80.0.3987.87-->
+		<parameter name="browserVersion" value="85.0.4183.102" /> 
+	
+		<classes>
+			
+			<class name="com.automation.eCommerce.TestCases">
+				<methods>
+						
+				</methods>
+			</class>
+			
+		</classes>
+
+	</test>
+
+</suite>

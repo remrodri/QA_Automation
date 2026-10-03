@@ -1,0 +1,38 @@
+# --- Maven ---
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+release.properties
+*.classpath.bak
+dependency-reduced-pom.xml
+
+# Salida generada en runtime por Core (ver Core/UserConstants.java)
+download/
+tests_results/
+testng_output/
+
+# Reportes de TestNG generados
+test-output/
+junitreports/
+
+# --- Eclipse / IntelliJ ---
+.metadata/
+.idea/
+*.launch
+*.tmp
+*.bak
+.settings/org.eclipse.jdt.core.prefs.bak
+
+# --- Sistema operativo y editores ---
+Thumbs.db
+.DS_Store
+desktop.ini
+*.swp
+*~
+
+# --- Archivos locales de configuracion sensible ---
+# Ignorar solo si se crean copias locales con credenciales; revisar antes de usar.
+*.local.properties
+.env
+.env.*
